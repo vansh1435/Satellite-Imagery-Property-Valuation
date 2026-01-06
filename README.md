@@ -495,24 +495,7 @@ Advanced fusion methods (attention, gating, late fusion) are proposed as future 
 
 <div align="center">
 
-### 📫 Questions or Feedback?
 
-Open an issue or reach out!
 
-**Made with 🛰️ and 🧠**
-
-<p>
-  <a href="https://github.com/yourusername/satellite-property-valuation">
-    <img src="https://img.shields.io/github/stars/yourusername/satellite-property-valuation?style=for-the-badge&logo=github&color=00ff88&labelColor=1a1a2e"/>
-  </a>
-  <a href="https://github.com/yourusername/satellite-property-valuation">
-    <img src="https://img.shields.io/github/forks/yourusername/satellite-property-valuation?style=for-the-badge&logo=github&color=3A86FF&labelColor=1a1a2e"/>
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-FF006E?style=for-the-badge&labelColor=1a1a2e"/>
-  </a>
-</p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=120&section=footer"/>
 
 </div>
