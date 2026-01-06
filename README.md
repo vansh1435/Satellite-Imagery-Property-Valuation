@@ -149,12 +149,12 @@ satellite-property-valuation/
 │   └── images/                 # Satellite images (NOT committed)
 │
 ├── 📓 notebooks/
-│   ├── 01_preprocessing.ipynb        # 🧹 Data cleaning & EDA
-│   ├── 02_tabular_model.ipynb        # 📊 Baseline model
-│   ├── 03_image_model.ipynb          # 🖼️ Image-only model
-│   ├── 04_fusion_model.ipynb         # 🔗 Multimodal fusion
-│   ├── 05_grad_cam.ipynb             # 👁️ Explainability
-│   └── 06_evaluation.ipynb           # 📈 Final comparison
+│   ├── preprocessing.ipynb        # 🧹 Data cleaning & EDA
+│   ├── tabular_model.ipynb        # 📊 Baseline model
+│  
+│   ├── fusion_model.ipynb         # 🔗 Multimodal fusion
+│   ├── grad_cam.ipynb             # 👁️ Explainability
+│   └── evaluation.ipynb           # 📈 Final comparison
 │
 ├── 🐍 src/
 │   └── data_fetcher.py         # Satellite image acquisition script
@@ -164,7 +164,7 @@ satellite-property-valuation/
 │
 ├── 📋 requirements.txt
 ├── 📖 README.md
-└── 🚫 .gitignore
+└── 
 ```
 
 ---
@@ -234,7 +234,7 @@ Early fusion of tabular + image embeddings
 | Model | RMSE | R² | Performance |
 |:------|:----:|:--:|:-----------:|
 | **Tabular Only** | ⭐ Best | ⭐ High | 🥇 Winner |
-| **Image Only** | ⚠️ Weak | ⚠️ Negative | 🔴 Noisy |
+
 | **Multimodal Fusion** | ⬇️ Lower | ⬇️ Lower | 🟡 Did not improve |
 
 </div>
