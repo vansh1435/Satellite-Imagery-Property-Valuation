@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=180&section=header&text=SATELLITE%20PROPERTY%20VALUATION&fontSize=45&fontColor=fff&animation=fadeIn&fontAlignY=38"/>
+
 
 <!-- Hero Badges -->
 <p>
