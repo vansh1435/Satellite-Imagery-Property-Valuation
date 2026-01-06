@@ -46,26 +46,8 @@ Can satellite imagery improve property price prediction when combined with tabul
 
 🧠 Project Approach
 
-We implement three complementary models:
+<img width="472" height="495" alt="image" src="https://github.com/user-attachments/assets/c68efca8-6d71-46ae-a4c2-24d375e9bf12" />
 
-┌───────────────────────────────────────────┐
-│           Property Location (lat, lon)    │
-└──────────────────────┬────────────────────┘
-                       │
-        ┌──────────────┴──────────────┐
-        │                             │
-        ▼                             ▼
-📋 Tabular Features            🛰️ Satellite Images
-(beds, baths, sqft, etc.)       (urban context)
-        │                             │
-        ▼                             ▼
-  XGBoost / MLP                 CNN (ResNet)
-        │                             │
-        └──────────────┬──────────────┘
-                       ▼
-                🔗 Multimodal Fusion
-                       ▼
-                 💰 Price Prediction
 
 📂 Repository Structure
 satellite-property-valuation/
@@ -94,7 +76,7 @@ satellite-property-valuation/
 └── .gitignore
 
 🧪 Models Implemented
-1️⃣ Tabular Model (XGBoost) — Baseline
+1. Tabular Model (XGBoost) — Baseline
 
 Uses only structured housing features
 
@@ -104,17 +86,8 @@ Robust, fast, and highly accurate
 ✅ Strong baseline
 🥇 Winner
 
-2️⃣ Image-Only Model (CNN)
 
-Satellite images → ResNet embeddings → regression
-
-Captures neighborhood patterns
-
-⚠️ Weak standalone signal
-⚠️ Noisy predictions
-🔴 Underperforms
-
-3️⃣ Multimodal Fusion (Tabular + Images)
+2. Multimodal Fusion (Tabular + Images)
 
 Early fusion of CNN image embeddings + tabular features
 
@@ -125,5 +98,5 @@ Early fusion of CNN image embeddings + tabular features
 📊 Key Results (Summary)
 Model	RMSE	R²	Performance
 Tabular (XGBoost)	⭐ Lowest	⭐ Highest	🥇 Best
-Image-Only CNN	⚠️ High	⚠️ Negative	🔴 Noisy
+
 Multimodal Fusion	⬇️ Worse	⬇️ Lower	🟡 Did not improve
